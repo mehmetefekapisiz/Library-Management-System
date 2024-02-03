@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C57EA2EC-2B28-49D3-B612-4F6DB57633B8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LibraryManagementSystem</RootNamespace>
+    <AssemblyName>LibraryManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CLASSES\ClassAuthor.cs" />
+    <Compile Include="CLASSES\ClassBook.cs" />
+    <Compile Include="CLASSES\ClassCirculation.cs" />
+    <Compile Include="CLASSES\ClassGenre.cs" />
+    <Compile Include="CLASSES\ClassMember.cs" />
+    <Compile Include="CLASSES\ClassUser.cs" />
+    <Compile Include="FORMS\Dashboard-Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Dashboard-Form.Designer.cs">
+      <DependentUpon>Dashboard-Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Login-Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Login-Form.Designer.cs">
+      <DependentUpon>Login-Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\ManageAuthors-Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\ManageAuthors-Form.Designer.cs">
+      <DependentUpon>ManageAuthors-Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\ManageBooks-Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\ManageBooks-Form.Designer.cs">
+      <DependentUpon>ManageBooks-Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\ManageCirculation-Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\ManageCirculation-Form.Designer.cs">
+      <DependentUpon>ManageCirculation-Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\ManageGenres-Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\ManageGenres-Form.Designer.cs">
+      <DependentUpon>ManageGenres-Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\ManageMembers-Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\ManageMembers-Form.Designer.cs">
+      <DependentUpon>ManageMembers-Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\ManageUsers-Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\ManageUsers-Form.Designer.cs">
+      <DependentUpon>ManageUsers-Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="THE-DATABASE\MYDB.cs" />
+    <EmbeddedResource Include="FORMS\Dashboard-Form.resx">
+      <DependentUpon>Dashboard-Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Login-Form.resx">
+      <DependentUpon>Login-Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\ManageAuthors-Form.resx">
+      <DependentUpon>ManageAuthors-Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\ManageBooks-Form.resx">
+      <DependentUpon>ManageBooks-Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\ManageCirculation-Form.resx">
+      <DependentUpon>ManageCirculation-Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\ManageGenres-Form.resx">
+      <DependentUpon>ManageGenres-Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\ManageMembers-Form.resx">
+      <DependentUpon>ManageMembers-Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\ManageUsers-Form.resx">
+      <DependentUpon>ManageUsers-Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ASSETS\73696e022df7cd5cb3d999c6875361dd.gif" />
+    <Content Include="ASSETS\animation-library-magicbookp-022120.gif" />
+    <Content Include="ASSETS\bg_dashboard.png" />
+    <Content Include="ASSETS\bg_login.jpg" />
+    <Content Include="ASSETS\book_gif.gif" />
+    <None Include="ASSETS\book_giff.gif" />
+    <Content Include="ASSETS\cocefibookkeepersgarden.gif" />
+    <Content Include="ASSETS\giphy.gif" />
+    <Content Include="ASSETS\icon_author.png" />
+    <Content Include="ASSETS\icon_book.png" />
+    <Content Include="ASSETS\icon_member.png" />
+    <Content Include="ASSETS\icon_password.png" />
+    <Content Include="ASSETS\icon_user.png" />
+    <Content Include="ASSETS\newton_gif_original.gif" />
+    <Content Include="ASSETS\newton_gif_transparent.gif" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

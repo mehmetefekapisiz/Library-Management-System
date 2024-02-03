@@ -1,0 +1,17 @@
+C:\Users\user\OneDrive\Masaüstü\project\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Masaüstü\project\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.FORMS.Login_Form.resources
+C:\Users\user\OneDrive\Masaüstü\project\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.Properties.Resources.resources
+C:\Users\user\OneDrive\Masaüstü\project\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.GenerateResource.cache
+C:\Users\user\OneDrive\Masaüstü\project\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Masaüstü\project\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.FORMS.Dashboard_Form.resources
+C:\Users\user\OneDrive\Masaüstü\project\LibraryManagementSystem\bin\Debug\LibraryManagementSystem.exe.config
+C:\Users\user\OneDrive\Masaüstü\project\LibraryManagementSystem\bin\Debug\LibraryManagementSystem.exe
+C:\Users\user\OneDrive\Masaüstü\project\LibraryManagementSystem\bin\Debug\LibraryManagementSystem.pdb
+C:\Users\user\OneDrive\Masaüstü\project\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.exe
+C:\Users\user\OneDrive\Masaüstü\project\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.pdb
+C:\Users\user\OneDrive\Masaüstü\project\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.FORMS.ManageGenres_Form.resources
+C:\Users\user\OneDrive\Masaüstü\project\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.FORMS.ManageAuthors_Form.resources
+C:\Users\user\OneDrive\Masaüstü\project\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.FORMS.ManageBooks_Form.resources
+C:\Users\user\OneDrive\Masaüstü\project\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.FORMS.ManageMembers_Form.resources
+C:\Users\user\OneDrive\Masaüstü\project\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.FORMS.ManageCirculation_Form.resources
+C:\Users\user\OneDrive\Masaüstü\project\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.FORMS.ManageUsers_Form.resources
